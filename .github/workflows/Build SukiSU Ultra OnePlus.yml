@@ -6,7 +6,7 @@ on:
         type: choice
         description: "配置文件"
         required: true
-        default: oneplus_ace2_pro_b
+        default: oneplus_13_b
         options:
           - oneplus_10r_v
           - oneplus_nord_3_v
@@ -63,7 +63,7 @@ on:
         type: choice
         description: "SUSFS模块下载调用方向"
         required: true
-        default: NoN
+        default: CI
         options:
           - CI
           - Release
@@ -87,7 +87,7 @@ on:
         type: string
         description: "分支名(必填)/自定义版本标识(留空不修改)/回退分支提交哈希版本(留空不修改)"
         required: false
-        default: "builtin/Numbersf/"
+        default: "builtin/Numbersf/9bdbadf5d8ae91d2ceaf727aef492e72f6598a62"
       SUFFIX:
         type: string
         description: "自定义内核后缀(不输入使用随机字符串)"
